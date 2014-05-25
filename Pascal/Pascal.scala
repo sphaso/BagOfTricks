@@ -1,5 +1,5 @@
 /*
-	Given the definition of a Pascal triange (i.e.)
+	Given the definition of a Pascal triangle (i.e.)
 	1
 	1	1
 	1	2	1
