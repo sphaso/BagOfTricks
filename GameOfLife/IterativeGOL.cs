@@ -61,7 +61,7 @@ namespace GameOfLife
         {
             while (true)
             {
-                Int32[] newLife = new Int32[9];
+                Int32[] newLife = new Int32[_life.Length];
 
                 for (var i = 0; i < _life.Length; i++)
                 {
