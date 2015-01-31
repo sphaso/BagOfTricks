@@ -1,5 +1,5 @@
 # SortN is a simple algorithm I came up with to sort distinct and discrete positive number arrays in O(n) time
-# I don't know if there's anything similar in literature, if so please comment :)
+# Practically you could just generate one from scratch, of course, but I thought it was a nice exercise nonetheless
 
 def sortN(array):
     for i in range(0, len(array) - 1):
