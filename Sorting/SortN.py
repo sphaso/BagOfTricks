@@ -10,5 +10,10 @@ def sortN(array):
             array[temp] = temp
     return array
 
-arrayo = sortN([5,4,3,2,1,0])
+def sortNFrom(array, leftmost):
+    newArray = range(0, leftmost) + array
+    plus = sortN(newArray)
+    return plus[leftmost:]
+
+arrayo = sortNFrom([100,99,98,97,96,95], 95)
 print(arrayo)
