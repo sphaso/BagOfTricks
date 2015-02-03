@@ -62,7 +62,6 @@ namespace Coursera.KerganGraph
 
                     _graph[key].Remove(node2);
                     _graph[key].Add(node1);
-                    _graph[key] = _graph[key].ToList();
                 }
 
                 //Delete second node
